@@ -1,0 +1,6 @@
+git clone https://github.com/rickyfang06-cmd/GUI_Class_2026_N13310034.git
+git add .
+git config --global user.email "emailricky.fang06@gmail.com"
+git config --global user.name "rickyfang06-cmd"
+git commit -m "20260310"
+git push -u origin main
