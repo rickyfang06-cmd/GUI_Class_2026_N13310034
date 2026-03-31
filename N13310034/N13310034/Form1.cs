@@ -16,5 +16,18 @@ namespace N13310034
         {
             InitializeComponent();
         }
+
+
+        private void btn_Change_Label_Click(object sender, EventArgs e)
+        {
+            lab_ChangeLabel.Text="我已經被按過了";
+        }
+
+        private void btn_Counter_Click(object sender, EventArgs e)
+        {
+            String count=lab__Counter.Text;
+            int sum=Int32.Parse(count)+1;
+            lab__Counter.Text=sum.ToString();
+        }
     }
 }
