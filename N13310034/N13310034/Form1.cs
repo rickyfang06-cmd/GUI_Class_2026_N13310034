@@ -45,5 +45,10 @@ namespace N13310034
         {
             new FormCalculator().Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new 期中考_攝氏轉華氏().Show();
+        }
     }
 }
