@@ -50,5 +50,10 @@ namespace N13310034
         {
             new 期中考_攝氏轉華氏().Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new FormTimer().Show();
+        }
     }
 }
