@@ -41,6 +41,7 @@
             this.btnCalculator = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.btn_OderMenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -165,11 +166,22 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // btn_OderMenu
+            // 
+            this.btn_OderMenu.Location = new System.Drawing.Point(579, 163);
+            this.btn_OderMenu.Name = "btn_OderMenu";
+            this.btn_OderMenu.Size = new System.Drawing.Size(179, 61);
+            this.btn_OderMenu.TabIndex = 12;
+            this.btn_OderMenu.Text = "點選菜單";
+            this.btn_OderMenu.UseVisualStyleBackColor = true;
+            this.btn_OderMenu.Click += new System.EventHandler(this.btn_OderMenu_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(22F, 45F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 420);
+            this.Controls.Add(this.btn_OderMenu);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnCalculator);
@@ -205,6 +217,7 @@
         private System.Windows.Forms.Button btnCalculator;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_OderMenu;
     }
 }
 

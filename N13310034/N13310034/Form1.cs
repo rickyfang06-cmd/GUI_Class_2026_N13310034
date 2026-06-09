@@ -55,5 +55,11 @@ namespace N13310034
         {
             new FormTimer().Show();
         }
+
+        private void btn_OderMenu_Click(object sender, EventArgs e)
+        {
+            new FormOderMenu().Show();
+
+        }
     }
 }
